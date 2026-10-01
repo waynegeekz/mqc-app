@@ -1,0 +1,21 @@
+/* MQC design tokens. Source of truth: DESIGN.md. */
+:root {
+  --site-navy: #0f2236;
+  --blueprint: #1d3a5c;
+  --safety-amber: #f2a900;
+  --amber-ink: #8a5a00;
+  --amber-tint: #fdf1d6;
+  --concrete: #ebe9e3;
+  --steel: #4a5866;
+  --paper: #f5f4f0;
+  --white: #ffffff;
+  --ink-muted: #55606b;
+  --line: #d6d3ca;
+  --line-strong: #7d8389;
+  --brand-tint: #e3eaf2;
+  --success: #1e6b45;
+  --success-tint: #e2f1e8;
+  --danger: #b42318;
+  --danger-tint: #fbe7e4;
+  --focus: #1f6fd1;
+}
