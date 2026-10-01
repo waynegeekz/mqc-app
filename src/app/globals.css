@@ -3,7 +3,8 @@
 @import "shadcn/tailwind.css";
 @import "./tokens.css";
 
-@custom-variant dark (@media (prefers-color-scheme: dark));
+/* Light only: no theme toggle, so `dark:` utilities (including shadcn defaults) never apply. */
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -55,27 +56,9 @@
   --input: var(--line-strong);
   --ring: var(--focus);
   --radius: 4px;
+  color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --blueprint: #8fb4dc;
-    --background: var(--site-navy);
-    --foreground: var(--paper);
-    --card: #16304a;
-    --card-foreground: var(--paper);
-    --popover: #16304a;
-    --popover-foreground: var(--paper);
-    --secondary-foreground: var(--site-navy);
-    --muted: #1d3a5c;
-    --muted-foreground: #b4bec8;
-    --accent: #1d3a5c;
-    --accent-foreground: var(--paper);
-    --destructive: #f07f72;
-    --border: #2c4866;
-    --input: #7d8389;
-  }
-}
 
 @layer base {
   * {
@@ -93,5 +76,57 @@
   }
   h1, h2, h3 {
     @apply font-heading font-bold;
+  }
+}
+
+/* Signature marks and browser surfaces */
+html {
+  scroll-padding-top: 88px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+::selection {
+  background: var(--safety-amber);
+  color: var(--site-navy);
+}
+html {
+  scrollbar-color: var(--line-strong) transparent;
+  accent-color: var(--blueprint);
+}
+a {
+  text-underline-offset: 3px;
+}
+
+.beam {
+  width: 48px;
+  height: 8px;
+  background: var(--safety-amber);
+}
+.blueprint-grid {
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* The S-curve plots left to right as it scrolls into view: time passing. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .s-curve-plot {
+      animation: plot linear both;
+      animation-timeline: view();
+      animation-range: entry 10% cover 45%;
+    }
+  }
+}
+@keyframes plot {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
   }
 }
