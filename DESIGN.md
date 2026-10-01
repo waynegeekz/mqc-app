@@ -128,7 +128,7 @@ The site reads like a drawing table in a project office: a deep navy ground, a f
 
 Density is moderate and structured. Content sits on a 1200px container with generous section padding, and information is organised by rules and numbering rather than boxes and shadows. Expression is spent in two places only: the heavy Archivo display type, and the amber beam that closes every headline.
 
-The product is light-first for content pages and navy-first for the hero, header, call-to-action band and footer. A full dark theme follows the system color scheme and keeps the same roles.
+The product is light-first for content pages and navy-first for the hero, header, call-to-action band and footer. There is no dark theme: the site is light-only and ignores the system color scheme.
 
 **Key Characteristics:**
 - Navy ground with a blueprint grid overlay in the hero (32px cells, 6% white lines).
@@ -143,7 +143,7 @@ A restrained navy and concrete palette with a single safety-amber accent. Neutra
 
 ### Primary
 - **Site Navy** (#0f2236): Primary ink on light surfaces and the inverse ground for the header, hero, CTA band and footer.
-- **Blueprint** (#1d3a5c): The brand blue. Secondary buttons, planned and completed phase bars, and the placeholder media ground. Lifts to #8fb4dc in dark mode.
+- **Blueprint** (#1d3a5c): The brand blue. Secondary buttons, planned and completed phase bars, and the placeholder media ground.
 
 ### Secondary
 - **Safety Amber** (#f2a900): The only accent. Primary buttons, the 8px beam, the current phase, active nav underline, eyebrow on dark. Never used as large background fill.

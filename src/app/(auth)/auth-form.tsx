@@ -54,7 +54,7 @@ export function AuthForm({ mode }: { mode: keyof typeof modes }) {
                 type="email"
                 autoComplete="email"
                 required
-                defaultValue={state?.email}
+                defaultValue={state?.email ?? ""}
                 aria-invalid={!!state?.error}
               />
             </div>
