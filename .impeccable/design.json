@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T00:35:02.752Z",
+  "title": "Design System: MQC Project Management",
+  "extensions": {
+    "colorMeta": {
+      "site-navy": {
+        "role": "primary",
+        "displayName": "Site Navy",
+        "canonical": "#0f2236",
+        "tonalRamp": [
+          "#070f18",
+          "#09141f",
+          "#0b1827",
+          "#0d1d2e",
+          "#0f2236",
+          "#4b5968",
+          "#939ca5",
+          "#cfd3d7"
+        ]
+      },
+      "blueprint": {
+        "role": "primary",
+        "displayName": "Blueprint",
+        "canonical": "#1d3a5c",
+        "tonalRamp": [
+          "#0d1a28",
+          "#112235",
+          "#152a42",
+          "#19324f",
+          "#1d3a5c",
+          "#566b85",
+          "#99a6b6",
+          "#d2d8de"
+        ]
+      },
+      "safety-amber": {
+        "role": "secondary",
+        "displayName": "Safety Amber",
+        "canonical": "#f2a900",
+        "tonalRamp": [
+          "#6a4a00",
+          "#8c6200",
+          "#ae7a00",
+          "#d09100",
+          "#f2a900",
+          "#f5bf40",
+          "#f9d88c",
+          "#fceecc"
+        ]
+      },
+      "amber-ink": {
+        "role": "secondary",
+        "displayName": "Amber Ink",
+        "canonical": "#8a5a00",
+        "tonalRamp": [
+          "#3d2800",
+          "#503400",
+          "#634100",
+          "#774d00",
+          "#8a5a00",
+          "#a78340",
+          "#cab58c",
+          "#e8decc"
+        ]
+      },
+      "amber-tint": {
+        "role": "secondary",
+        "displayName": "Amber Tint",
+        "canonical": "#fdf1d6",
+        "tonalRamp": [
+          "#6f6a5e",
+          "#938c7c",
+          "#b6ae9a",
+          "#dacfb8",
+          "#fdf1d6",
+          "#fef5e0",
+          "#fef9ed",
+          "#fffcf7"
+        ]
+      },
+      "concrete": {
+        "role": "neutral",
+        "displayName": "Concrete",
+        "canonical": "#ebe9e3",
+        "tonalRamp": [
+          "#676764",
+          "#888784",
+          "#a9a8a3",
+          "#cac8c3",
+          "#ebe9e3",
+          "#f0efea",
+          "#f6f5f2",
+          "#fbfbf9"
+        ]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Steel",
+        "canonical": "#4a5866",
+        "tonalRamp": [
+          "#21272d",
+          "#2b333b",
+          "#353f49",
+          "#404c58",
+          "#4a5866",
+          "#77828c",
+          "#aeb4ba",
+          "#dbdee0"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f5f4f0",
+        "tonalRamp": [
+          "#6c6b6a",
+          "#8e8e8b",
+          "#b0b0ad",
+          "#d3d2ce",
+          "#f5f4f0",
+          "#f8f7f4",
+          "#fbfaf8",
+          "#fdfdfc"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#707070",
+          "#949494",
+          "#b8b8b8",
+          "#dbdbdb",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ink Muted",
+        "canonical": "#55606b",
+        "tonalRamp": [
+          "#252a2f",
+          "#31383e",
+          "#3d454d",
+          "#49535c",
+          "#55606b",
+          "#808890",
+          "#b3b7bc",
+          "#dddfe1"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#d6d3ca",
+        "tonalRamp": [
+          "#5e5d59",
+          "#7c7a75",
+          "#9a9891",
+          "#b8b5ae",
+          "#d6d3ca",
+          "#e0ded7",
+          "#edebe7",
+          "#f7f6f4"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Line Strong",
+        "canonical": "#7d8389",
+        "tonalRamp": [
+          "#373a3c",
+          "#494c4f",
+          "#5a5e63",
+          "#6c7176",
+          "#7d8389",
+          "#9ea2a7",
+          "#c5c7ca",
+          "#e5e6e7"
+        ]
+      },
+      "brand-tint": {
+        "role": "neutral",
+        "displayName": "Brand Tint",
+        "canonical": "#e3eaf2",
+        "tonalRamp": [
+          "#64676a",
+          "#84888c",
+          "#a3a8ae",
+          "#c3c9d0",
+          "#e3eaf2",
+          "#eaeff5",
+          "#f2f6f9",
+          "#f9fbfc"
+        ]
+      },
+      "success": {
+        "role": "status",
+        "displayName": "Success",
+        "canonical": "#1e6b45",
+        "tonalRamp": [
+          "#0d2f1e",
+          "#113e28",
+          "#164d32",
+          "#1a5c3b",
+          "#1e6b45",
+          "#569074",
+          "#9abcab",
+          "#d2e1da"
+        ]
+      },
+      "success-tint": {
+        "role": "status",
+        "displayName": "Success Tint",
+        "canonical": "#e2f1e8",
+        "tonalRamp": [
+          "#636a66",
+          "#838c87",
+          "#a3aea7",
+          "#c2cfc8",
+          "#e2f1e8",
+          "#e9f5ee",
+          "#f2f9f5",
+          "#f9fcfa"
+        ]
+      },
+      "danger": {
+        "role": "status",
+        "displayName": "Danger",
+        "canonical": "#b42318",
+        "tonalRamp": [
+          "#4f0f0b",
+          "#68140e",
+          "#821911",
+          "#9b1e15",
+          "#b42318",
+          "#c75a52",
+          "#dd9c97",
+          "#f0d3d1"
+        ]
+      },
+      "danger-tint": {
+        "role": "status",
+        "displayName": "Danger Tint",
+        "canonical": "#fbe7e4",
+        "tonalRamp": [
+          "#6e6664",
+          "#928684",
+          "#b5a6a4",
+          "#d8c7c4",
+          "#fbe7e4",
+          "#fcedeb",
+          "#fdf4f3",
+          "#fefafa"
+        ]
+      },
+      "focus": {
+        "role": "status",
+        "displayName": "Focus",
+        "canonical": "#1f6fd1",
+        "tonalRamp": [
+          "#0e315c",
+          "#124079",
+          "#165096",
+          "#1b5fb4",
+          "#1f6fd1",
+          "#5793dd",
+          "#9abeea",
+          "#d2e2f6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only."
+      },
+      "heading-1": {
+        "displayName": "Heading 1",
+        "purpose": "Section titles and the principle statement."
+      },
+      "heading-2": {
+        "displayName": "Heading 2",
+        "purpose": "Secondary section titles."
+      },
+      "heading-3": {
+        "displayName": "Heading 3",
+        "purpose": "Step, panel and figure titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default and lead copy."
+      },
+      "body-s": {
+        "displayName": "Body S",
+        "purpose": "Reassurance lines, field messages, footer."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Eyebrows, step numbers, chart annotations."
+      }
+    },
+    "shadows": [
+      {
+        "name": "panel",
+        "value": "0 8px 24px rgba(15, 34, 54, 0.14)",
+        "purpose": "Mobile menu panel and the hero progress card."
+      }
+    ],
+    "motion": [
+      {
+        "name": "color-transition",
+        "value": "120ms",
+        "purpose": "Color-only hover and focus transitions on buttons, links and summaries."
+      },
+      {
+        "name": "s-curve-plot",
+        "value": "scroll-driven clip-path, entry 10% to cover 45%",
+        "purpose": "Chart lines plot left to right as they scroll into view; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Amber action. Every consultation CTA but the desktop nav.",
+      "html": "<button class=\"ds-btn-primary\">Request a consultation</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 24px;border:1px solid transparent;border-radius:4px;background:#f2a900;color:#0f2236;font:600 16px 'IBM Plex Sans',sans-serif;cursor:pointer;transition:background-color 120ms,color 120ms}.ds-btn-primary:hover{background:#8a5a00;color:#fff}.ds-btn-primary:focus-visible{outline:2px solid #1f6fd1;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Blueprint action used for the desktop nav CTA.",
+      "html": "<button class=\"ds-btn-secondary\">Request a consultation</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 24px;border:1px solid transparent;border-radius:4px;background:#1d3a5c;color:#fff;font:600 16px 'IBM Plex Sans',sans-serif;cursor:pointer;transition:background-color 120ms,color 120ms}.ds-btn-secondary:hover{background:#0f2236;color:#fff}.ds-btn-secondary:focus-visible{outline:2px solid #1f6fd1;outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field-control",
+      "description": "White 44px control with a Line Strong border and a Danger error message.",
+      "html": "<label class=\"ds-label\" for=\"ds-f\">Work email</label><input class=\"ds-input\" id=\"ds-f\" type=\"email\" placeholder=\"you@company.com\"><p class=\"ds-error\">Enter a valid email address.</p>",
+      "css": ".ds-label{display:block;font:600 14px 'IBM Plex Sans',sans-serif;color:#0f2236}.ds-input{display:block;margin-top:8px;width:100%;height:44px;padding:0 12px;border:1px solid #7d8389;border-radius:4px;background:#fff;color:#0f2236;font:400 16px 'IBM Plex Sans',sans-serif;box-sizing:border-box}.ds-input:focus-visible{outline:2px solid #1f6fd1;outline-offset:2px}.ds-error{margin:6px 0 0;font:500 14px 'IBM Plex Sans',sans-serif;color:#b42318}"
+    },
+    {
+      "name": "Navigation Links",
+      "kind": "nav",
+      "description": "Header anchor links with a 2px underline on hover.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">The gap</a><a href=\"#\">How we work</a><a href=\"#\">FAQ</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px}.ds-nav a{padding:4px 0;border-bottom:2px solid transparent;color:#0f2236;font:500 15px 'IBM Plex Sans',sans-serif;text-decoration:none;transition:border-color 120ms}.ds-nav a:hover{border-color:#7d8389}.ds-nav a:focus-visible{outline:2px solid #1f6fd1;outline-offset:2px}"
+    },
+    {
+      "name": "Off-track Badge",
+      "kind": "chip",
+      "refersTo": "badge-off-track",
+      "description": "Status badge: 2px corners, square marker, Danger on tint.",
+      "html": "<span class=\"ds-badge\"><span class=\"ds-dot\"></span>Off track</span>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 8px;border-radius:2px;background:#fbe7e4;color:#b42318;font:600 12px 'IBM Plex Sans',sans-serif}.ds-dot{width:6px;height:6px;background:currentColor}"
+    },
+    {
+      "name": "Numbered Step",
+      "kind": "custom",
+      "description": "Signature ruled list item: 2px navy rule, mono number, Heading 3 title, muted body.",
+      "html": "<div class=\"ds-step\"><span class=\"ds-num\">01</span><div><h3>We set the baseline.</h3><p>Scope, schedule, budget, quality and risks are written down and agreed.</p></div></div>",
+      "css": ".ds-step{display:grid;grid-template-columns:56px 1fr;gap:16px;padding:28px 0;border-top:2px solid #0f2236;max-width:640px}.ds-num{padding-top:8px;font:500 12px 'IBM Plex Mono',monospace;letter-spacing:.12em;color:#55606b}.ds-step h3{margin:0;font:600 22px/28px Archivo,sans-serif;color:#0f2236}.ds-step p{margin:8px 0 0;font:400 16px/28px 'IBM Plex Sans',sans-serif;color:#55606b}"
+    },
+    {
+      "name": "Section Heading",
+      "kind": "custom",
+      "description": "Mono eyebrow, Heading 1, amber beam, muted lead.",
+      "html": "<div class=\"ds-sh\"><p class=\"ds-eyebrow\">The gap</p><h2>Most projects do not fail all at once. They drift.</h2><div class=\"ds-beam\"></div><p class=\"ds-lead\">A delay here. A change there.</p></div>",
+      "css": ".ds-sh{max-width:720px}.ds-eyebrow{margin:0 0 12px;font:500 12px 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#55606b}.ds-sh h2{margin:0;font:700 36px/42px Archivo,sans-serif;letter-spacing:-.01em;color:#0f2236}.ds-beam{width:48px;height:8px;margin-top:24px;background:#f2a900}.ds-lead{margin:24px 0 0;font:400 16px/28px 'IBM Plex Sans',sans-serif;color:#55606b}"
+    },
+    {
+      "name": "Progress Bars",
+      "kind": "custom",
+      "description": "Planned (Blueprint) against actual (Amber) on Concrete tracks.",
+      "html": "<dl class=\"ds-prog\"><div><div class=\"ds-row\"><dt>Planned</dt><dd>62%</dd></div><div class=\"ds-track\"><div class=\"ds-fill ds-plan\"></div></div></div><div><div class=\"ds-row\"><dt>Actual</dt><dd>54%</dd></div><div class=\"ds-track\"><div class=\"ds-fill ds-act\"></div></div></div></dl>",
+      "css": ".ds-prog{display:grid;gap:12px;width:300px;margin:0;font:12px 'IBM Plex Mono',monospace;color:#0f2236}.ds-row{display:flex;justify-content:space-between}.ds-row dt,.ds-row dd{margin:0}.ds-track{margin-top:6px;height:8px;border-radius:2px;background:#ebe9e3}.ds-fill{height:8px;border-radius:2px}.ds-plan{width:62%;background:#1d3a5c}.ds-act{width:54%;background:#f2a900}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Blueprint Room",
+    "overview": "The site reads like a drawing table in a project office: warm paper and white sheets ruled in navy, numbered steps, mono annotations, square-capped line drawings, and one amber marker to say \"this is the thing\". The mood is precise, sober and accountable.",
+    "keyCharacteristics": [
+      "Paper ground, white raised sheets, navy for emphasis blocks and the footer.",
+      "One accent: amber marks the primary action, the beam, the actual line and one drawing.",
+      "Square geometry: 2px and 4px corners, hairline borders, 2px structural rules.",
+      "Numbered, ruled lists instead of icon cards for process content.",
+      "Mono uppercase eyebrow labels as the technical-drawing voice.",
+      "2px, square-capped, mitered line icons and illustrations."
+    ],
+    "rules": [
+      {
+        "name": "The One Marker Rule",
+        "body": "Amber is the single accent and appears in small, deliberate quantities: a button, a beam, a bar, a line, a rule.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink-on-Amber Rule",
+        "body": "Text on amber is always Site Navy. Amber-colored text on light surfaces uses Amber Ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Annotation Rule",
+        "body": "Mono uppercase is for labels, numbers and data only.",
+        "section": "typography"
+      },
+      {
+        "name": "The Heavy Headline Rule",
+        "body": "Archivo runs at 700 or 800 for headings (600 only for step and list titles).",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces are flat at rest. A shadow marks a floating layer, never ambient decoration.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Rule-Not-Box Rule",
+        "body": "Separate content with a 2px ink rule or a 1px line before reaching for a bordered container.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do close every major headline with the 48px by 8px amber beam.",
+      "Do use ink rules (2px, Site Navy) and numbering to structure process content.",
+      "Do put Site Navy text on amber, and Amber Ink for amber-colored text on light surfaces.",
+      "Do use mono uppercase for eyebrows, numbers and figures only.",
+      "Do keep corners at 4px or less and use hairline borders.",
+      "Do use the real brand logo files in public/brand/ (full logo on light, reversed on navy).",
+      "Do draw icons and diagrams as 2px, square-capped, mitered line work, and keep real site photography uncropped by effects.",
+      "Do keep a visible 2px focus outline and 44px minimum control height.",
+      "Do label illustrative data as a sample."
+    ],
+    "donts": [
+      "Don't use amber as a large fill, a gradient, or on more than one or two marks per view.",
+      "Don't add pills, large radii, glassmorphism or ambient drop shadows.",
+      "Don't use status colors (green, red) as decoration.",
+      "Don't replace ruled lists with identical bordered icon cards.",
+      "Don't set body copy or headings in the mono face.",
+      "Don't invent testimonials, client logos or project figures; use real evidence only.",
+      "Don't spread the blueprint grid across other sections; it belongs to the principle band."
+    ]
+  }
+}
